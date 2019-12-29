@@ -1,0 +1,22 @@
+2019-12-29 12:34:11.965 [main] INFO  Tests.HomePageTest -
+                    Checking Title
+2019-12-29 12:34:12.739 [main] INFO  Tests.HomePageTest -
+                    prod
+2019-12-29 12:42:51.032 [main] INFO  Initiate.InitiateTest -
+                    In BeforeClass
+2019-12-29 12:42:51.037 [main] INFO  Initiate.WebdriverLaunch -
+                    Driver in Prop file = chrome
+2019-12-29 12:42:51.037 [main] INFO  Initiate.WebdriverLaunch -
+                    Launching ChromeDriver
+2019-12-29 12:42:54.894 [main] INFO  Initiate.InitiateTest -
+                    ==============Creating objects of PageObject Classes==================
+2019-12-29 12:42:54.902 [main] INFO  Initiate.InitiateTest -
+                    Launching URL https://www.makemytrip.com/
+2019-12-29 12:42:57.352 [main] INFO  Tests.HomePageTest -
+                    Checking Title
+2019-12-29 12:42:57.855 [main] INFO  Tests.HomePageTest -
+                    prod
+2019-12-29 12:42:57.857 [main] INFO  Initiate.InitiateTest -
+                    Launching URL https://www.makemytrip.com/
+2019-12-29 12:42:58.402 [main] INFO  Initiate.InitiateTest -
+                    Launching URL https://www.makemytrip.com/

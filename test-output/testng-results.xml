@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7872" started-at="2019-12-29T07:12:51Z" finished-at="2019-12-29T07:12:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7872" started-at="2019-12-29T07:12:51Z" finished-at="2019-12-29T07:12:58Z">
+      <class name="Tests.HomePageTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Tests.HomePageTest@557caf28]" name="beforeClass" is-config="true" duration-ms="3875" started-at="2019-12-29T07:12:51Z" finished-at="2019-12-29T07:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@557caf28]" name="beforeMethod" is-config="true" duration-ms="2444" started-at="2019-12-29T07:12:54Z" finished-at="2019-12-29T07:12:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:Tests.HomePageTest@557caf28]" name="checkTitle" duration-ms="509" started-at="2019-12-29T07:12:57Z" finished-at="2019-12-29T07:12:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@557caf28]" name="beforeMethod" is-config="true" duration-ms="533" started-at="2019-12-29T07:12:57Z" finished-at="2019-12-29T07:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getTabsOfHomePage()[pri:0, instance:Tests.HomePageTest@557caf28]" name="getTabsOfHomePage" duration-ms="2" started-at="2019-12-29T07:12:58Z" finished-at="2019-12-29T07:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTabsOfHomePage -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@557caf28]" name="beforeMethod" is-config="true" duration-ms="480" started-at="2019-12-29T07:12:58Z" finished-at="2019-12-29T07:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchForFlight()[pri:0, instance:Tests.HomePageTest@557caf28]" name="searchForFlight" duration-ms="1" started-at="2019-12-29T07:12:58Z" finished-at="2019-12-29T07:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForFlight -->
+      </class> <!-- Tests.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
