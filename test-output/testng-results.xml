@@ -1,37 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7872" started-at="2019-12-29T07:12:51Z" finished-at="2019-12-29T07:12:58Z">
+  <suite name="Default suite" duration-ms="14945" started-at="2019-12-30T10:43:05Z" finished-at="2019-12-30T10:43:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7872" started-at="2019-12-29T07:12:51Z" finished-at="2019-12-29T07:12:58Z">
+    <test name="Default test" duration-ms="14945" started-at="2019-12-30T10:43:05Z" finished-at="2019-12-30T10:43:20Z">
       <class name="Tests.HomePageTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Tests.HomePageTest@557caf28]" name="beforeClass" is-config="true" duration-ms="3875" started-at="2019-12-29T07:12:51Z" finished-at="2019-12-29T07:12:54Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="beforeClass" is-config="true" duration-ms="5859" started-at="2019-12-30T10:43:05Z" finished-at="2019-12-30T10:43:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@557caf28]" name="beforeMethod" is-config="true" duration-ms="2444" started-at="2019-12-29T07:12:54Z" finished-at="2019-12-29T07:12:57Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="beforeMethod" is-config="true" duration-ms="3573" started-at="2019-12-30T10:43:11Z" finished-at="2019-12-30T10:43:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkTitle()[pri:0, instance:Tests.HomePageTest@557caf28]" name="checkTitle" duration-ms="509" started-at="2019-12-29T07:12:57Z" finished-at="2019-12-29T07:12:57Z">
+        <test-method status="PASS" signature="DataProviderUseInTestNG(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="DataProviderUseInTestNG" duration-ms="8" started-at="2019-12-30T10:43:15Z" data-provider="homepagedataqa" finished-at="2019-12-30T10:43:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1_qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1_qa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ph1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProviderUseInTestNG -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="beforeMethod" is-config="true" duration-ms="1252" started-at="2019-12-30T10:43:15Z" finished-at="2019-12-30T10:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DataProviderUseInTestNG(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="DataProviderUseInTestNG" duration-ms="2" started-at="2019-12-30T10:43:16Z" data-provider="homepagedataqa" finished-at="2019-12-30T10:43:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2_qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2_qa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ph2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProviderUseInTestNG -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="beforeMethod" is-config="true" duration-ms="805" started-at="2019-12-30T10:43:16Z" finished-at="2019-12-30T10:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DataProviderUseInTestNG(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="DataProviderUseInTestNG" duration-ms="2" started-at="2019-12-30T10:43:17Z" data-provider="homepagedataqa" finished-at="2019-12-30T10:43:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3_qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3_qa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ph3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProviderUseInTestNG -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="beforeMethod" is-config="true" duration-ms="513" started-at="2019-12-30T10:43:17Z" finished-at="2019-12-30T10:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DataProviderUseInTestNG(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="DataProviderUseInTestNG" duration-ms="3" started-at="2019-12-30T10:43:18Z" data-provider="homepagedataqa" finished-at="2019-12-30T10:43:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user4_qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass4_qa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ph4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProviderUseInTestNG -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="beforeMethod" is-config="true" duration-ms="575" started-at="2019-12-30T10:43:18Z" finished-at="2019-12-30T10:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DataProviderUseInTestNG(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="DataProviderUseInTestNG" duration-ms="1" started-at="2019-12-30T10:43:18Z" data-provider="homepagedataqa" finished-at="2019-12-30T10:43:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user5_qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass5_qa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ph5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProviderUseInTestNG -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="beforeMethod" is-config="true" duration-ms="510" started-at="2019-12-30T10:43:18Z" finished-at="2019-12-30T10:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ParameterInTestNGUse(java.lang.String, java.lang.String)[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="ParameterInTestNGUse" duration-ms="2" started-at="2019-12-30T10:43:19Z" finished-at="2019-12-30T10:43:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParameterInTestNGUse -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="beforeMethod" is-config="true" duration-ms="432" started-at="2019-12-30T10:43:19Z" finished-at="2019-12-30T10:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="checkTitle" duration-ms="827" started-at="2019-12-30T10:43:19Z" finished-at="2019-12-30T10:43:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@557caf28]" name="beforeMethod" is-config="true" duration-ms="533" started-at="2019-12-29T07:12:57Z" finished-at="2019-12-29T07:12:58Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="beforeMethod" is-config="true" duration-ms="533" started-at="2019-12-30T10:43:20Z" finished-at="2019-12-30T10:43:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getTabsOfHomePage()[pri:0, instance:Tests.HomePageTest@557caf28]" name="getTabsOfHomePage" duration-ms="2" started-at="2019-12-29T07:12:58Z" finished-at="2019-12-29T07:12:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTabsOfHomePage -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.HomePageTest@557caf28]" name="beforeMethod" is-config="true" duration-ms="480" started-at="2019-12-29T07:12:58Z" finished-at="2019-12-29T07:12:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="searchForFlight()[pri:0, instance:Tests.HomePageTest@557caf28]" name="searchForFlight" duration-ms="1" started-at="2019-12-29T07:12:58Z" finished-at="2019-12-29T07:12:58Z">
+        <test-method status="PASS" signature="searchForFlight()[pri:0, instance:Tests.HomePageTest@3c46e67a]" name="searchForFlight" duration-ms="1" started-at="2019-12-30T10:43:20Z" finished-at="2019-12-30T10:43:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForFlight -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <parameter name = "EmpID" value = "1245"/>
+  <parameter name = "EmpName" value = "Sarthak"/>
+  <parameter name = "EmpID1" value = "1245"/>
+  <parameter name = "EmpName2" value = "Sarthak"/>
+  <parameter name = "EmpID1" value = "1245"/>
+  <parameter name = "EmpName2" value = "Sarthak"/>
+  
+  <parameter name = "Username" value = "1245"/>
+  <parameter name = "Password" value = "Sarthak"/>
+  
+    <classes>
+      <class name="Tests.HomePageTest"/>
+
+
+
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -2,12 +2,12 @@ package Tests;
 
 import java.io.IOException;
 
-import org.slf4j.LoggerFactory;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.Assert;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 import Initiate.InitiateTest;
 import Managers.ExcelFileReader;
@@ -15,13 +15,7 @@ import Managers.ProFileReader;
 
 
 public class HomePageTest extends InitiateTest {
-//	InitiateTest = Parent
-//    HomePageTest = child
-	
-	//BeforeClass ---jo driver open
-	
-	//HomePageObject homepage; //no object
-	//object ---which is present in InitateTest
+
 	
 	private static final Logger LOGGER = LoggerFactory.getLogger(HomePageTest.class);
 	
@@ -31,22 +25,25 @@ public class HomePageTest extends InitiateTest {
 		Assert.assertEquals(homepage.getTitle(), "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday");
 		Assert.assertEquals(ProFileReader.getProp("homepage", "homepageusername"), "abc");
 		Assert.assertEquals(ExcelFileReader.getData("Data", "Name", 2), "Sarthak");
-		LOGGER.info(ProFileReader.getProp("env")); //------config
+		LOGGER.info(ProFileReader.getProp("env"));
 	}
 	
 	@Test
 	public void searchForFlight() {
 		System.out.println("Checking Search flight");
-		//Search
 	}
 	
+	@Parameters({"EmpID", "EmpName"})
 	@Test
-	public void getTabsOfHomePage() {
-		System.out.println("Checking hoempage tab");
+	public void ParameterInTestNGUse(@Optional("1111") String id, @Optional("abc") String name) {
+
+		System.out.println(id+"-------"+name);
+	}
+	
+	
+	@Test (dataProvider = "homepagedataqa", dataProviderClass = DataProviders.HomePageData.class)
+	public void DataProviderUseInTestNG(String username, String password, String id, String ph) {
+		System.out.println("Loggin in gmail using "+username+"---password = "+ password+"----id = "+id+"--ph="+ph);
 		
 	}
-	
-	
-	
-
 }
