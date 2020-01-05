@@ -14,7 +14,9 @@ import com.aventstack.extentreports.ExtentReports;
 import Managers.ProFileReader;
 import PageObject.HomePageObject;
 import PageObject.HotelPageObject;
-import Tests.HomePageTest;
+import Reporting.ExtentManager;
+import Reporting.ReportingClass;
+
 
 
 public class InitiateTest {
@@ -35,7 +37,8 @@ public class InitiateTest {
 	public static WebDriver driver;
 	public HomePageObject homepage;
 	public HotelPageObject hotelpage;
-	public static ExtentReports reports;
+	public static ExtentReports report;
+	
 	
 	
 	//STCM@Test
@@ -49,6 +52,8 @@ public class InitiateTest {
 		LOGGER.info("==============Creating objects of PageObject Classes==================");
 		homepage = new HomePageObject(driver);
 		hotelpage = new HotelPageObject(driver);
+		report = ExtentManager.setUp("Extent_Reports");//html report
+		
 		
 		
 	}
@@ -57,6 +62,14 @@ public class InitiateTest {
 	public void beforeMethod() throws IOException {
 		LOGGER.info("Launching URL "+ProFileReader.getProp("url"));
 		driver.get(ProFileReader.getProp("url"));
+	}
+	
+	@AfterClass
+	public void afterClass() {
+		//create test case --- ReportingClass.initReports(scenario);
+		//testcase ---pass ---ReportingClass.infoLogPass("pass");
+		
+		ReportingClass.putReport();
 	}
 	
 	
